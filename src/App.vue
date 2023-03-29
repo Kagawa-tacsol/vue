@@ -23,7 +23,13 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
   margin-top: 60px;
+}
+body{
+	background-color: #dedede;
+	background-image:
+	 linear-gradient(#ecebeb 50%, transparent 50%, transparent);
+	background-size: 10px 10px;
 }
 </style>

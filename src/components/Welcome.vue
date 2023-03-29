@@ -1,7 +1,7 @@
 <template>
 <div>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="125" height="125" />
+    <img alt="My Face" class="face" src="@/assets/myFace.png" width="150" height="150" />
     <div class="wrapper">
       <Me/>
     </div>
@@ -25,16 +25,16 @@ export default {
 
 <style scoped>
 header {
-  display:block;
+  display:flex;
   text-align: center;
   line-height: 1.5;
   max-height: 100vh;
 }
 
-.logo {
-  display: block;
+.face {
+  display: inline;
   text-align: center;
-  margin: 0 auto 2rem;
+  margin: 0 25px 0 calc(50% - 175px);
 }
 
 nav {
@@ -59,9 +59,7 @@ nav a {
   border-left: 1px solid var(--color-border);
 }
 
-nav a:first-of-type {
-  border: 0;
-}  
+
 header .wrapper {
     display: flex;
     place-items: flex-start;
