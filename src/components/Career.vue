@@ -14,6 +14,11 @@
     <td>株式会社TACSOL</td>
     <td class="td3">入社</td>
   </tr>
+  <tr>
+    <td class="td1">2022年7月</td>
+    <td>交通道路会社にて資産管理システムの改修業務</td>
+    <td class="td3">テスター<br>参加</td>
+</tr>
 </table>
 <table class="cr">
   <tr>
